@@ -59,13 +59,6 @@
     &trans  &out OUT_TOG            &trans      &trans        &trans      &trans          &kp LS(NUMBER_1)  &kp LS(N2)  &kp LS(N3)   &kp GRAVE  &kp LS(GRAVE)  &kp LG(LS(NUMBER_2))
                                               &kp LGUI        &trans   &kp SPACE                   &kp RET      &trans    &kp RALT
             >;
-
-            parent of 2635186 (
-
-            Updated
-            corne.keymap =
-                )
-            >;
         };
     };
 };
