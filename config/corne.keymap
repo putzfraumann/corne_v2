@@ -54,10 +54,10 @@
 
             label = "Raise";
             bindings = <
- &kp TILDE    &kp K_PREV  &kp K_PLAY_PAUSE  &kp K_NEXT        &trans     &trans                &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp LS(N0)             &trans               &kp INS
-    &trans    &bt BT_CLR        &bt BT_PRV  &bt BT_NXT  &bt BT_SEL 0     &trans                &kp LS(N4)  &kp LS(N5)  &kp LS(N6)      &trans             &trans                &trans
-    &trans  &out OUT_TOG            &trans      &trans        &trans     &trans          &kp LS(NUMBER_1)  &kp LS(N2)  &kp LS(N3)   &kp GRAVE  &kp RA(LS(GRAVE))  &kp LG(LS(NUMBER_2))
-                                              &kp LGUI        &trans  &kp SPACE                   &kp RET      &trans    &kp RALT
+ &kp TILDE    &kp K_PREV  &kp K_PLAY_PAUSE  &kp K_NEXT        &trans  &bt BT_CLR                &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp LS(N0)         &kp UP               &kp INS
+    &trans        &trans        &bt BT_PRV  &bt BT_NXT  &bt BT_SEL 0      &trans                &kp LS(N4)  &kp LS(N5)  &kp LS(N6)    &kp LEFT       &kp DOWN             &kp RIGHT
+    &trans  &out OUT_TOG            &trans      &trans        &trans      &trans          &kp LS(NUMBER_1)  &kp LS(N2)  &kp LS(N3)   &kp GRAVE  &kp LS(GRAVE)  &kp LG(LS(NUMBER_2))
+                                              &kp LGUI        &trans   &kp SPACE                   &kp RET      &trans    &kp RALT
             >;
 
             parent of 2635186 (
