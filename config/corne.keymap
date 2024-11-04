@@ -53,15 +53,13 @@
 
             label = "Raise";
             bindings = <
-&kp TILDE  &kp K_PREV            &kp K_PLAY_PAUSE  &kp K_NEXT  &trans        &bt BT_CLR    &kp LS(N7)        &kp LS(N8)  &kp LS(N9)  &kp LS(N0)  &kp UP         &kp INS
-&kp TAB    &trans                &bt BT_PRV        &bt BT_NXT  &bt BT_SEL 0  &trans        &kp LS(N4)        &kp LS(N5)  &kp LS(N6)  &kp LEFT    &kp DOWN       &kp RIGHT
-&trans     &kp NON_US_BACKSLASH  &trans            &trans      &trans        &trans        &kp LS(NUMBER_1)  &kp LS(N2)  &kp LS(N3)  &kp GRAVE   &kp LS(GRAVE)  &kp LG(LS(NUMBER_2))
-                                                   &kp LGUI    &sl 0         &kp SPACE     &kp RET           &sl 0       &kp RALT
+&kp TILDE  &kp K_PREV            &kp K_PLAY_PAUSE  &kp K_NEXT  &trans        &bt BT_CLR_ALL    &kp LS(N7)        &kp LS(N8)  &kp LS(N9)  &kp LS(N0)  &kp UP         &kp INS
+&kp TAB    &trans                &bt BT_PRV        &bt BT_NXT  &bt BT_SEL 0  &trans            &kp LS(N4)        &kp LS(N5)  &kp LS(N6)  &kp LEFT    &kp DOWN       &kp RIGHT
+&trans     &kp NON_US_BACKSLASH  &trans            &trans      &trans        &trans            &kp LS(NUMBER_1)  &kp LS(N2)  &kp LS(N3)  &kp GRAVE   &kp LS(GRAVE)  &kp LG(LS(NUMBER_2))
+                                                   &kp LGUI    &sl 0         &kp SPACE         &kp RET           &sl 0       &kp RALT
             >;
         };
     };
 };
 
-&nice_view_spi {
-    cs-gpios = <&pro_micro 0 GPIO_ACTIVE_HIGH>;
-};
+&nice_view_spi { cs-gpios = <&pro_micro 0 GPIO_ACTIVE_HIGH>; };
